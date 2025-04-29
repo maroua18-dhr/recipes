@@ -7,28 +7,271 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="recipe-card">
-    <img src="cookies.jpg" alt="Recipe Image" class="recipe-img" />
-    <h1>Chocolate Cookies</h1>
-    <p class="time">Prep Time: 15 mins | Cook Time: 10 mins</p>
+  <nav>
+    <button id="btnSweet">Sweet</button>
+    <button id="btnSalty">Salty</button>   
+  </nav>
 
-    <h2 >Ingredients :</h2>
-    <ul>
-      <li>1 cup butter</li>
-      <li>1 cup sugar</li>
-      <li>2 cups flour</li>
-      <li>1 tsp vanilla extract</li>
-      <li>1 cup chocolate chips</li>
-    </ul>
+  
 
-    <h2>Instructions :</h2>
-    <ol>
-      <li>Preheat oven to 175°C.</li>
-      <li>Cream together butter and sugar.</li>
-      <li>Add vanilla and mix well.</li>
-      <li>Stir in flour until combined.</li>
-      <li>Fold in chocolate chips and bake for 10 mins.</li>
-    </ol>
+
+  <div id="sweet" class="categ active">
+
+    <div class="recipe-card">
+  
+      <img src="cookies.jpg" alt="cookies" class="recipe-img" />
+      <button class="favorite-btn">🤍</button>
+      <div class="rating">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+      <h1>Chocolate Cookies</h1>
+      <p class="time">Prep Time: 15 mins | Cook Time: 10 mins</p>
+
+      <button class="ingredients">Show Ingredients</button>
+      <div class="ingredients-container">
+          <h2 >Ingredients :</h2>
+          <ul>
+            <li>1 cup butter</li>
+            <li>1 cup sugar</li>
+            <li>2 cups flour</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1 cup chocolate chips</li>
+          </ul>
+      </div>
+
+      <button class="instructions">Show Instructions</button>
+      <div class="instructions-container">
+          <h2>Instructions :</h2>
+          <ol>
+            <li>Preheat oven to 175°C.</li>
+            <li>Cream together butter and sugar.</li>
+            <li>Add vanilla and mix well.</li>
+            <li>Stir in flour until combined.</li>
+            <li>Fold in chocolate chips and bake for 10 mins.</li>
+          </ol>
+       </div>
+
+    </div>
+
+    <div class="recipe-card">
+      <img src="les-crépes.jpeg" alt="crepes" class="recipe-img">
+      <button class="favorite-btn">🤍</button>
+      <div class="rating">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+      <h1>Les crêpes </h1>
+      <p class="time">Prep time: 10 mins | Cook Time : 15 mins </p>
+
+      <button class="ingredients">Show Ingredients</button>
+      <div class="ingredients-container">
+          <h2>Ingredients:</h2>
+          <ul>
+            <li>250g flour</li>
+            <li>2 egg</li>
+            <li>1/2 liter milk</li>
+            <li>1 tbsp sugar</li>
+            <li>1 tsp vanilla </li>
+            <li>1 pinch salt </li>
+            <li>Butter for cooking</li>
+          </ul>
+      </div>
+
+      <button class="instructions">Show Instructions</button>
+      <div class="instructions-container">
+          <h2>Instructions:</h2>
+          <ol>
+            <li>Mix flour, eggs, milk, sugar, vanilla, and salt until smooth.</li>
+            <li>Let rest 30 mins.</li>
+            <li>Heat a buttered pan and pour a ladle of batter.</li>
+            <li>Cook both sides until golden. Serve warm with toppings.</li>
+          </ol>
+      </div>
+    </div>
+
+    <div class="recipe-card">
+      <img src="cupcakes.jpg" alt="cupcakes" class="recipe-img">
+      <button class="favorite-btn">🤍</button>
+      <div class="rating">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+      <h1>Classsic Vanilla Cupcakes</h1>
+      <p class="time"> Prep time : 15mins | Cook time: 18-22 mins</p>
+
+      <button class="ingredients">Show Ingredients</button>
+      <div class="ingredients-container">
+          <h2>Ingredients:</h2>
+          <ul>
+            <li>1 1/2 cups all-purpose flour</li>
+            <li>1 1/2 tsp baking powder</li>
+            <li>1/2 tsp salt</li>
+            <li>1/2 cup unsalted butter, softened</li>
+            <li>3/4 cup granulated sugar</li>
+            <li>2 large eggs</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1/2 cup milk</li>
+          </ul>
+      </div>
+
+      <button class="instructions">Show Instructions</button>
+      <div class="instructions-container">
+          <h2>Instructions:</h2>
+          <ol>
+            <li>Preheat your oven to 175°C (350°F). Line a muffin tin with paper cupcake liners.</li>
+            <li>In a bowl, whisk together flour, baking powder, and salt.</li>
+            <li>In a large bowl, cream together the butter and sugar until light and fluffy.</li>
+            <li>Add eggs one at a time, beating well after each addition. Stir in the vanilla extract.</li>
+            <li>Add the dry ingredients in three additions, alternating with the milk, beginning and ending with the dry ingredients. Mix until just combined.</li>
+            <li>Divide the batter evenly among the cupcake liners.</li>
+            <li>Bake until a toothpick inserted into the center comes out clean.</li>
+          </ol>
+      </div>
+    </div>
+
+
+
   </div>
+
+    <div id="salty" class="categ" >
+
+      <div class="recipe-card">
+        <img src="quiche.jpg" alt="quichePoulet" class="recipe-img">
+        <button class="favorite-btn">🤍</button>
+        <div class="rating">
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+        </div>
+        
+        <h1>Quiche Au Poulet </h1>
+        <p class="time">Prep time : 20 mins | cook time : 35 mins</p>
+
+        <button class="ingredients">Show Ingredients</button>
+        <div class="ingredients-container">
+            <h2> Ingredients:</h2>
+            <ul>
+              <li> 1 pie crust</li>
+              <li>200g cooked chicken </li>
+              <li>1 onion , chopped </li>
+              <li>200ml créme fraiche</li>
+              <li>100g grated cheese</li>
+              <li>salt, pepper </li>
+            </ul>
+        </div>
+
+        <button class="instructions">Show Instructions</button>
+        <div class="instructions-container">
+            <h2> Instructions:</h2>
+            <ol>
+              <li>Preheat oven to 180°C (350°F).</li>
+              <li>In a pan, sauté onion. Add chicken and cook for a few minutes.</li>
+              <li>In a bowl, mix eggs, créme fraiche, cheese, salt, pepper.</li>
+              <li>Spread chicken mixture into the pie crust. Pour egg mixture over it.</li>
+              <li>Bake for 30–35 minutes until golden and firm. Let cool slightly before serving.</li>
+            </ol>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <img src="omelette.webp" alt="omelette" class="recipe-img">
+        <button class="favorite-btn">🤍</button>
+        <div class="rating">
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+        </div>
+        <h1>Omelette Au Fromage</h1>
+        <p class="time">Prep time: 5 mins | Cook time: 5 mins </p>
+
+        <button class="ingredients">Show Ingredients</button>
+        <div class="ingredients-container">
+            <h2>Ingredients:</h2>
+            <ul>
+              <li>3 eggs</li>
+              <li>30g grated cheese </li>
+              <li>1 tbsp butter</li>
+              <li>Salt and pepper</li>
+            </ul>
+        </div>
+
+        <button class="instructions">Show Instructions</button>
+        <div class="instructions-container">
+            <h2>Instructions:</h2>
+            <ol>
+              <li>Crack eggs into a bowl, add salt, pepper, and beat lightly.</li>
+              <li>Heat butter in a non-stick pan over medium heat.</li>
+              <li>Pour in eggs and cook gently, stirring lightly with a spatula.</li>
+              <li>When almost set, sprinkle cheese and fold the omelette in half.</li>
+              <li>Cook another 30 seconds and serve hot Bon appetit!!</li>
+            </ol>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <img src="gratin.jpg" alt="gratin-Au-Poulet" class="recipe-img">
+        <button class="favorite-btn">🤍</button>
+        <div class="rating">
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+          <span class="star">☆</span>
+        </div>
+        <h1>Gratin Au Poulet</h1>
+        <p class="time">Prep time: 15 mins | Cook time: 1 hour</p>
+
+        <button class="ingredients">Show Ingredients</button>
+        <div class="ingredients-container">
+            <h2>Ingredients:</h2>
+            <ul>
+              <li>2 chicken breasts (or thighs), cooked and shredded</li>
+              <li>4 medium potatoes, peeled and sliced thinly</li>
+              <li>1 onion, finely chopped</li>
+              <li>2 cloves garlic, minced</li>
+              <li>1 cup heavy cream</li>
+              <li>1/2 cup milk</li>
+              <li>1 1/2 cups grated cheese</li>
+              <li>1 tbsp olive oil or butter</li>
+              <li>Salt and pepper</li>
+            </ul>
+        </div>
+
+        <button class="instructions">Show Instructions</button>
+        <div class="instructions-container">
+            <h2>Instructions:</h2>
+            <ol>
+              <li>Preheat your oven to 190°C (375°F).</li>
+              <li>Heat the olive oil or butter in a pan over medium heat. Add the chopped onion and garlic, and sauté until soft and fragrant, about 3-4 minutes.</li>
+              <li>In a large bowl, mix the shredded chicken, sautéed onions and garlic, salt, pepper.</li>
+              <li>Grease a baking dish with butter or oil. Layer the bottom of the dish with a portion of the sliced potatoes.</li>
+              <li>Add a layer of the chicken mixture on top of the potatoes.</li>
+              <li>Repeat the layers until all potatoes and chicken mixture are used, finishing with a layer of potatoes on top.</li>
+              <li>In a separate bowl, mix the cream and milk, and pour this mixture over the layers in the baking dish.</li>
+              <li>Sprinkle the grated cheese evenly over the top.</li>
+              <li>Cover the dish with aluminum foil and bake for 40 minutes.</li>
+              <li>After 40 minutes, remove the foil and bake for another 20 minutes, or until the top is golden brown and bubbly.</li>
+            </ol>
+       </div>
+      </div>
+      
+    </div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
