@@ -60,11 +60,11 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
-    position: fixed;
+    position: absolute;
     top: 0;
     background-color: #8b000077;
     padding: 11px ;
-    
+    right:0;
   }
   
   nav button {
